@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "threadpool_linux",
+					"jsonFile" : "directory-threadpool_linux-Debug-f1ce83247c4b160673a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "threadpool_linux",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "threadpool_all_platform",
+					"jsonFile" : "directory-threadpool_all_platform-Debug-3805bc65e91b08e6085d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "threadpool_all_platform",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Semaphore_c++11",
+					"jsonFile" : "directory-Semaphore_c++11-Debug-cc4a6e261a6b43918f5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Semaphore_c++11",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "ThreadPool",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Semaphore::@56b0d22f6f89ba54f3c9",
+					"jsonFile" : "target-Semaphore-Debug-93800a4505109c237165.json",
+					"name" : "Semaphore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ThreadPool_linux::@06e531027e64c0376281",
+					"jsonFile" : "target-ThreadPool_linux-Debug-20911375c0941cda78e7.json",
+					"name" : "ThreadPool_linux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-442ad009c8df7673ce6c.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "threadpool_all_platform::@8b0a9c37165ef5be28fa",
+					"jsonFile" : "target-threadpool_all_platform-Debug-3fd84106d6d6f1ce5cb0.json",
+					"name" : "threadpool_all_platform",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug",
+		"source" : "C:/Users/xd/CLionProjects/ThreadPool"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "threadpool_BlockingConcurrentQueue",
+		"source" : "threadpool_BlockingConcurrentQueue"
+	}
+}

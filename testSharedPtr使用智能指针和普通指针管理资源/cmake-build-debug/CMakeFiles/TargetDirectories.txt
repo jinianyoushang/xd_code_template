@@ -1,0 +1,4 @@
+C:/Users/xd/CLionProjects/testSharedPtr/cmake-build-debug/CMakeFiles/testFileData.dir
+C:/Users/xd/CLionProjects/testSharedPtr/cmake-build-debug/CMakeFiles/testUniquePtr.dir
+C:/Users/xd/CLionProjects/testSharedPtr/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xd/CLionProjects/testSharedPtr/cmake-build-debug/CMakeFiles/rebuild_cache.dir

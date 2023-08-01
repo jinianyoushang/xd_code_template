@@ -1,0 +1,18 @@
+# ninja log v5
+2426	4241	7080157723006173	testUniquePtr.exe	3e8b79b55f58a74b
+157	2414	7080157704714353	CMakeFiles/testUniquePtr.dir/main2.cpp.obj	51b478bd4c6b5965
+10	613	7080160048523357	build.ninja	7b92632339efe44a
+227	2423	7080157704725552	CMakeFiles/testUniquePtr.dir/FileData2.cpp.obj	66af6b5cdbfb8002
+520	3579	7080160306089176	CMakeFiles/testUniquePtr.dir/FileData2.cpp.obj	c4bfac6644d30d6
+299	3598	7080160306192620	CMakeFiles/testUniquePtr.dir/main2.cpp.obj	bd98fe00fcc1c401
+3603	6736	7080160337707939	testUniquePtr.exe	3e8b79b55f58a74b
+33	1622	7080161092167925	CMakeFiles/testUniquePtr.dir/FileData2.cpp.obj	c4bfac6644d30d6
+76	1628	7080161092189555	CMakeFiles/testUniquePtr.dir/main2.cpp.obj	bd98fe00fcc1c401
+1630	2940	7080161105298662	testUniquePtr.exe	3e8b79b55f58a74b
+13	815	7080162511729070	CMakeFiles/testUniquePtr.dir/main2.cpp.obj	bd98fe00fcc1c401
+820	1441	7080162517840852	testUniquePtr.exe	3e8b79b55f58a74b
+11	954	7080162841753640	CMakeFiles/testUniquePtr.dir/main2.cpp.obj	bd98fe00fcc1c401
+956	1612	7080162848179044	testUniquePtr.exe	3e8b79b55f58a74b
+22	1193	7080163529211260	CMakeFiles/testUniquePtr.dir/FileData2.cpp.obj	c4bfac6644d30d6
+16	830	7080163602527128	CMakeFiles/testUniquePtr.dir/main2.cpp.obj	bd98fe00fcc1c401
+833	1343	7080163607563924	testUniquePtr.exe	3e8b79b55f58a74b

@@ -1,0 +1,3 @@
+C:/Users/17632/CLionProjects/xd_LRU/cmake-build-debug/CMakeFiles/xd_LRU.dir
+C:/Users/17632/CLionProjects/xd_LRU/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/17632/CLionProjects/xd_LRU/cmake-build-debug/CMakeFiles/rebuild_cache.dir

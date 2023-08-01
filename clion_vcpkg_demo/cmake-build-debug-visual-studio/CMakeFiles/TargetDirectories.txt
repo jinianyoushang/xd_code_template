@@ -1,0 +1,3 @@
+C:/Users/17632/CLionProjects/clion_demo/cmake-build-debug-visual-studio/CMakeFiles/clion_demo.dir
+C:/Users/17632/CLionProjects/clion_demo/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/17632/CLionProjects/clion_demo/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

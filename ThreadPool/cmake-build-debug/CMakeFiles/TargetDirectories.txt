@@ -1,0 +1,15 @@
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_linux/CMakeFiles/ThreadPool_linux.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_linux/CMakeFiles/edit_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_linux/CMakeFiles/rebuild_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_all_platform/CMakeFiles/threadpool_all_platform.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_all_platform/CMakeFiles/edit_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_all_platform/CMakeFiles/rebuild_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/Semaphore_c++11/CMakeFiles/Semaphore.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/Semaphore_c++11/CMakeFiles/edit_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/Semaphore_c++11/CMakeFiles/rebuild_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_BlockingConcurrentQueue/CMakeFiles/threadpool_BlockingConcurrentQueue.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_BlockingConcurrentQueue/CMakeFiles/edit_cache.dir
+C:/Users/xd/CLionProjects/ThreadPool/cmake-build-debug/threadpool_BlockingConcurrentQueue/CMakeFiles/rebuild_cache.dir
