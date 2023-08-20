@@ -6,6 +6,26 @@
 
 using namespace std;
 
+
+//设计C++函数 将其中的一种字符替换成另一个字符或者字符串
+void replaceChar(std::string& str, char oldChar, const std::string& newStr) {
+    std::string::size_type pos = 0;
+    while ((pos = str.find(oldChar, pos)) != std::string::npos) {
+        str.replace(pos, 1, newStr);
+        pos += newStr.length();
+    }
+}
+
+//设计C++函数 将其中的一种字符替换成另一个字符或者字符串
+void replaceChar(std::string& str, char oldChar, char newChar) {
+    for (char& c : str) {
+        if (c == oldChar) {
+            c = newChar;
+        }
+    }
+}
+
+//去掉两端的字符
 static string& strip(string& s, const string& chars = " ")
 {
     s.erase(0, s.find_first_not_of(chars.c_str()));
@@ -13,6 +33,7 @@ static string& strip(string& s, const string& chars = " ")
     return s;
 }
 
+//将string分割为vector
 static void split(const string& s, vector<string>& tokens, const string& delimiters = " ")
 {
     string::size_type lastPos = s.find_first_not_of(delimiters, 0);
