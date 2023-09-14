@@ -39,6 +39,20 @@ vector<int> stringToVector(string &s){
     return res;
 }
 
+//字符串转字符数组
+vector<string> stringToVector(string &s){
+    int l=s.find('[');
+    int r=s.find(']');
+    s=s.substr(l+1,r-1);
+    stringstream  ss(s);
+    string line;
+    vector<string> res;
+    while (getline(ss,line,',')){
+        res.push_back(line.substr(1,line.size()-2));
+    }
+    return res;
+}
+
 
 
 int main(){
@@ -85,3 +99,23 @@ while (cin >> str) {
     while (getline(ss, str, ',')) {
         strs.push_back(str);
     }
+	
+	
+//读取不定长的二维数组
+//[1,1]
+//[0,1]	
+string line;
+vector<vector<int>> v;
+while (getline(cin, line)) {
+	if (line.empty()) {
+		break;
+	}
+	v.emplace_back();
+	line = line.substr(1, line.size() - 2);
+	stringstream stringstream1(line);
+	int num;
+	while (stringstream1 >> num) {
+		v.back().emplace_back(num);
+		stringstream1.ignore();
+	}
+}

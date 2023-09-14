@@ -106,6 +106,7 @@ volatile Singleton* volatile Singleton::instance() {
         }
     }
     return _instance;
+}
 
 
 

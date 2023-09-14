@@ -1,4 +1,4 @@
-//计算二项式系数c（n，k） n里面挑k个
+//计算二项式系数c（n，k） n里面挑k个  比较快的方法
 size_t binomialCoeff(int n, int k) {
     // Create a 2D array to store the results of subproblems
     size_t C[n + 1][k + 1];
@@ -19,6 +19,24 @@ size_t binomialCoeff(int n, int k) {
 
     // Return the desired result
     return C[n][k];
+}
+
+
+// 计算阶乘
+unsigned long long factorial(int n) {
+    unsigned long long result = 1;
+    for (int i = 1; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+// 计算排列数  n里面取R个
+unsigned long long calculatePermutations(int n, int r) {
+    unsigned long long numerator = factorial(n);
+    unsigned long long denominator = factorial(n - r);
+    unsigned long long permutations = numerator / denominator;
+    return permutations;
 }
 
 
@@ -76,3 +94,6 @@ int C(int n, int m) {
   }
   return dp[n][m]; //返回结果
 }
+
+
+
