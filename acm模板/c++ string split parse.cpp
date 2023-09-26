@@ -6,6 +6,18 @@
 
 using namespace std;
 
+//设计C++函数 将其中的一种字符串替换成另一个字符串
+std::string replaceWord(const std::string& str, const std::string& oldWord, const std::string& newWord) {
+    std::string result = str;
+    size_t pos = 0;
+
+    while ((pos = result.find(oldWord, pos)) != std::string::npos) {
+        result.replace(pos, oldWord.length(), newWord);
+        pos += newWord.length();
+    }
+
+    return result;
+}
 
 //设计C++函数 将其中的一种字符替换成另一个字符或者字符串
 void replaceChar(std::string& str, char oldChar, const std::string& newStr) {
