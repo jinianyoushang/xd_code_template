@@ -8,6 +8,7 @@ private:
     std::vector<int> parent;
     int sets = 0;
 public:
+	//返回并查集里面集合的个数
     int getCount() const{
         return sets;
     }
