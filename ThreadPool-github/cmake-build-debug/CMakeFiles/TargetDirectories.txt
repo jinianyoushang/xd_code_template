@@ -1,3 +1,0 @@
-C:/Users/xd/Desktop/ThreadPool-master/cmake-build-debug/CMakeFiles/threadpool.dir
-C:/Users/xd/Desktop/ThreadPool-master/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/xd/Desktop/ThreadPool-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir

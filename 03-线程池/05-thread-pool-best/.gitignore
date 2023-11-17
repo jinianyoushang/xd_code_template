@@ -1,0 +1,6 @@
+build
+.kdev4
+*.kate-swp
+*.kdev4
+.vscode
+.cache
