@@ -31,6 +31,7 @@ ThreadPool::ThreadPool(int min, int max) : finished_(false), min_(min), max_(max
                     DelThread();
                 }
             }
+            //休眠100ms
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
         }
     });
