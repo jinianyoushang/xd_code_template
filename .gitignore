@@ -12,3 +12,7 @@
 **/cmake-build-release
 **/.idea/
 .idea/
+**/.vs/
+**/build
+**/Debug
+**/x64
