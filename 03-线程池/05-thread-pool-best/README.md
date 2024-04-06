@@ -61,13 +61,13 @@ int main(int argc, char **argv) {
 
 ```
 
-### 基于继承的Task(threadpool3)
+### 基于继承的Task(threadpool3)（推荐2）
 
 这个是对Task(threadpool)的改进，使用条件变量控制线程，而不是让其自旋；更推荐这个，而不是之前的。
 
 
 
-### 基于可调用对象的task(threadpool2)
+### 基于可调用对象的task(threadpool2)（推荐1）
 
 这个用途更广一些；尽量使用这个
 
