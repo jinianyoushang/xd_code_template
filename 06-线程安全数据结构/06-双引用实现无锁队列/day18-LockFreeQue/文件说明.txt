@@ -1,0 +1,4 @@
+memoryleakque  和  crushque都是不可以用的
+
+singlepushpop //单线程消费，单线程生产的队列
+lockfreeque //最终方案
